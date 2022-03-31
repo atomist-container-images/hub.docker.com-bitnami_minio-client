@@ -1,12 +1,16 @@
-# Tags: latest, 2022.3.17-debian-10-r13, 2022.3.17, 2022-debian-10, 2022
+# Tags: latest, 2022.3.31-debian-10-r0, 2022.3.31, 2022-debian-10, 2022
 FROM bitnami/minio-client:latest
-FROM bitnami/minio-client:2022.3.17-debian-10-r13
-FROM bitnami/minio-client:2022.3.17
+FROM bitnami/minio-client:2022.3.31-debian-10-r0
+FROM bitnami/minio-client:2022.3.31
 FROM bitnami/minio-client:2022-debian-10
 FROM bitnami/minio-client:2022
 
 # Tags: _
 FROM bitnami/minio-client:_
+
+# Tags: 2022.3.17-debian-10-r13, 2022.3.17
+FROM bitnami/minio-client:2022.3.17-debian-10-r13
+FROM bitnami/minio-client:2022.3.17
 
 # Tags: 2022.3.17-debian-10-r12
 FROM bitnami/minio-client:2022.3.17-debian-10-r12
